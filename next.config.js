@@ -5,7 +5,20 @@ const nextConfig = {
 
   // Optimize images
   images: {
-    domains: ['avatars.githubusercontent.com'],
+    remotePatterns: [
+      {
+        protocol: "https",
+        hostname: "avatars.githubusercontent.com", // GitHub profile avatars
+      },
+      {
+        protocol: "https",
+        hostname: "github.com", // GitHub attachments
+      },
+      {
+        protocol: "https",
+        hostname: "pub-9953d003956d42ef8cebdbe21cd9e736.r2.dev", // Your R2 bucket
+      },
+    ],
     formats: ['image/avif', 'image/webp'],
     minimumCacheTTL: 60,
   },

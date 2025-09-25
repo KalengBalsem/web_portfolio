@@ -7,16 +7,16 @@ export const PROFILE = {
   about: `Major in Architecture, Minor in Data and AI
 Institut Teknologi Bandung 2023 – Present
 Bandung, Indonesia`,
-  avatarUrl: "/images/avatar.png",
+  avatarUrl: "https://pub-9953d003956d42ef8cebdbe21cd9e736.r2.dev/ash.jpg",
   socials: [
     {
       name: "GitHub",
-      url: "https://github.com/yourusername",
+      url: "https://github.com/kalengbalsem",
       icon: GitHubIcon,
     },
     {
       name: "LinkedIn",
-      url: "https://linkedin.com/in/yourusername",
+      url: "https://linkedin.com/in/asybelbintang",
       icon: LinkedInIcon,
     },
     {
@@ -26,7 +26,7 @@ Bandung, Indonesia`,
     },
     {
       name: "Email",
-      url: "mailto:youremail@gmail.com",
+      url: "mailto:asybel.bintang@gmail.com",
       icon: MailIcon,
     },
     {

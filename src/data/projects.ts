@@ -1,14 +1,14 @@
 export const PROJECTS = [
   {
-    title: "ARCH-IV",
+    title: "Deep BIM",
     description:
-      "A scalable digital archive system for architecture student works at ITB.",
-    image: "/images/logos/archiv.png",
+      "DeepBIM is an AI-augmented BIM framework to enhance BIM workflows.",
+    image: "https://github.com/user-attachments/assets/9a69fe86-76e6-4308-bc43-95dfd4981641",
     link: {
       label: "GitHub",
-      href: "https://github.com/yourusername/archiv",
+      href: "https://github.com/KalengBalsem/DeepBIM",
     },
-    tags: ["Next.js", "FastAPI", "PostgreSQL"],
+    tags: ["C#", "Python/FastAPI", "Revit"],
   },
   {
     title: "Real Estate Portfolio Optimization",
