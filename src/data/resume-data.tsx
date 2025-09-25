@@ -1,47 +1,45 @@
 import type { ResumeData } from "@/lib/types";
 
 export const RESUME_DATA: ResumeData = {
-  name: "Bartosz Jarocki",
-  initials: "BJ",
-  location: "Wrocław, Poland, CET",
-  locationLink: "https://www.google.com/maps/place/Wrocław",
-  about: "Full Stack Engineer dedicated to building high-quality products.",
+  name: "Asybel Bintang",
+  initials: "AB",
+  location: "Bandung, Indonesia",
+  locationLink: "https://www.google.com/maps/place/Bandung",
+  about: "Aspiring BIM Engineer.",
   summary: (
     <>
-      Full Stack Engineer specializing in high-performance React applications,
-      scalable Node.js services, and real-time collaboration systems.
-      Experienced in technical architecture design and remote team leadership.
+      Creative, disciplined, and focused architecture student with a strong interest in Building Information Modeling (BIM) and its applications in the AEC (Architecture, Engineering, and Construction) industry. With a solid background in design and technology, he is eager to deepen his expertise in BIM to enhance efficiency, sustainability, and collaboration in building projects.
     </>
   ),
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://pub-9953d003956d42ef8cebdbe21cd9e736.r2.dev/ash.jpg",
   personalWebsiteUrl: "https://jarocki.me",
   contact: {
-    email: "bartosz.jarocki@hey.com",
-    tel: "+48530213401",
+    email: "asybel.bintang@gmail.com",
+    tel: "085212345678",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/BartoszJarocki",
+        url: "https://github.com/kalengbalsem",
         icon: "github",
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/bjarocki/",
+        url: "https://www.linkedin.com/in/asybelbintang/",
         icon: "linkedin",
       },
       {
         name: "X",
-        url: "https://x.com/BartoszJarocki",
+        url: "https://x.com/kaleng_balsem",
         icon: "x",
       },
     ],
   },
   education: [
     {
-      school: "Wrocław University of Technology",
-      degree: "Bachelor's Degree in Control systems engineering and Robotics",
-      start: "2007",
-      end: "2010",
+      school: "Bandung Institute of Technology",
+      degree: "Bachelor's Degree in Architecture",
+      start: "2023",
+      end: "2027",
     },
   ],
   work: [

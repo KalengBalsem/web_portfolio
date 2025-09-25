@@ -1,8 +1,16 @@
 import type { StaticImageData } from "next/image";
+import { PROFILE } from "@/data/profile";
+import { EXPERIENCES } from "@/data/experiences";
+import { PROJECTS } from "@/data/projects";
 
 export type ResumeIcon = React.ComponentType<React.SVGProps<SVGSVGElement>> | StaticImageData;
 
 export type IconType = "github" | "linkedin" | "x" | "globe" | "mail" | "phone";
+
+// types.ts
+export type Profile = typeof PROFILE;
+export type Project = (typeof PROJECTS)[number];
+export type Experience = (typeof EXPERIENCES)[number];
 
 export interface ResumeData {
   name: string;
