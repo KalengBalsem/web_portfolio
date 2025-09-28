@@ -2,14 +2,9 @@ import Image from "next/image";
 
 export function ProjectCard({ project }: { project: any }) {
   return (
-    <a
-      href={project.link?.href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="border rounded-xl overflow-hidden hover:shadow-lg transition flex flex-col"
-    >
+    <div className="border rounded-xl overflow-hidden hover:shadow-lg transition flex flex-col">
       {/* Top image */}
-      <div className="relative w-full h-64">
+      <div className="relative w-full h-40">
         <Image
           src={project.image}
           alt={project.title}
@@ -42,13 +37,23 @@ export function ProjectCard({ project }: { project: any }) {
           {project.description}
         </p>
 
-        {/* Link */}
-        {project.link && (
-          <span className="text-sm font-medium text-primary underline">
-            {project.link.label}
-          </span>
+        {/* Links */}
+        {project.links && project.links.length > 0 && (
+          <div className="flex gap-3 flex-wrap">
+            {project.links.map((link: any) => (
+              <a
+                key={link.href}
+                href={link.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-sm font-medium text-primary underline hover:text-primary/80"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
         )}
       </div>
-    </a>
+    </div>
   );
 }
