@@ -1,6 +1,6 @@
 import { PROFILE } from "@/data/profile";
 import { EXPERIENCES } from "@/data/experiences";
-import { PROJECTS } from "@/data/projects";
+import { PROJECTS } from "@/data/code_projects";
 
 export function generatePersonStructuredData() {
   const latestJob = EXPERIENCES[0];

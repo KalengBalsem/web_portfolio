@@ -3,9 +3,9 @@ export const PROJECTS = [
     title: "Real Estate Portfolio Optimization",
     description:
       "Machine learning + dynamic programming study for Jabodetabek real estate.",
-    image: "/images/logos/realestate.png",
+    image: "https://github.com/user-attachments/assets/1c79b564-60e6-4421-9fd7-44afb40cc524",
     links: [
-      { label: "Source Code (GitHub)", href: "https://github.com/yourusername/realestate-optimizer"},
+      { label: "Source Code (GitHub)", href: "https://github.com/KalengBalsem/RE_Portfolio_Optimization"},
     { label: "Full Paper", href: "https://informatika.stei.itb.ac.id/~rinaldi.munir/Stmik/2024-2025/Makalah2025/Makalah-IF2211-Strategi-Algoritma-2025%20(118).pdf"}],
     tags: ["Python", "ML", "Optimization"],
   },
@@ -40,6 +40,6 @@ export const PROJECTS = [
       label: "Source Code (GitHub)",
       href: "https://github.com/KalengBalsem/instalyzer",
     }],
-    tags: ["Python", "Analytics", "EdTech"],
+    tags: ["Python", "Flask", "Data Analytics", "EdTech"],
   },
 ] as const;

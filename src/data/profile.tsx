@@ -29,10 +29,5 @@ Bandung, Indonesia`,
       url: "mailto:asybel.bintang@gmail.com",
       icon: MailIcon,
     },
-    {
-      name: "Phone",
-      url: "tel:+628123456789",
-      icon: PhoneIcon,
-    },
   ],
 };

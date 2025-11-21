@@ -27,7 +27,7 @@ export function Header({ profile }: { profile: any }) {
         </div>
       </div>
       <Avatar
-        className="size-28"
+        className="size-32"
         src={profile.avatarUrl}
         alt={`${profile.name} profile picture`}
         fallback="AB"

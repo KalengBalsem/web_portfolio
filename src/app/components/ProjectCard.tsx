@@ -4,7 +4,7 @@ export function ProjectCard({ project }: { project: any }) {
   return (
     <div className="border rounded-xl overflow-hidden hover:shadow-lg transition flex flex-col">
       {/* Top image */}
-      <div className="relative w-full h-40">
+      <div className="relative w-full h-52">
         <Image
           src={project.image}
           alt={project.title}
