@@ -9,7 +9,7 @@ export function Navbar() {
       <div className="mx-auto max-w-6xl px-4 py-3 flex justify-between items-center">
         {/* Logo / Name */}
         <Link href="/" className="text-xl">
-          @asybel.bp
+          <img src="/images/asterisk_light.png" alt="asterisk" className="w-8" />
         </Link>
 
         {/* Nav links */}
